@@ -1,0 +1,64 @@
+# Python
+/env/
+/build/
+*.py[co]
+*.egg*
+.cache
+python/env
+
+# iPython notebook
+*.ipynb
+.ipynb_checkpoints/
+
+# Coverage
+.coverage
+./test_coverage_results.json
+./.coverage
+cover
+.ref
+coverage.xml
+jenkins.xml
+.coverage.*
+test_coverage_results.json
+# JVM
+/target/
+junit.xml
+
+# Mac
+.DS_Store
+
+# Spark Temp
+/spark/
+/spark/*
+./spark/
+./spark.tgz
+spark.tgz
+
+# Emacs
+*~
+.\#*
+\#*\#
+
+# Vim
+*.swp
+
+# Misc
+.idea/
+target/
+*.iml
+.parquet/
+src/test/.DS_Store
+.DS_Store
+dependency-reduced-pom.xml
+.idea/*
+.idea/compiler.xml
+.idea/workspace.xml
+*.html
+.vscode/
+
+# Log and DB Files generated during local development
+derby.log
+metastore_db/
+
+# PyTest cache
+.pytest_cache/
